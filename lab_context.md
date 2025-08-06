@@ -4,52 +4,113 @@
 
 Onja is a social enterprise training underprivileged Malagasy (and eventually other East African) youth to become world-class developers. Our mission is to create opportunities that help improve quality of life across Madagascar and Africa.
 
-We're in a scaling phase, transitioning from in-person teacher-led education to self-driven, accessible curriculum. These labs serve students who have:
+We're in a scaling phase, transitioning from in-person teacher-led education to self-driven, accessible curriculum. Our students typically have:
 
-- **Limited computer experience**: ~5 weeks total when they encounter these CSS labs
+- **Limited prior technical experience**: Often encountering computing concepts for the first time
 - **Recent English acquisition**: English is learned as part of the program
-- **High motivation**: First cohort described the program as challenging but worthwhile
-- **Early development stage**: Currently in weeks 6-7 of a 60+ week comprehensive program
+- **High motivation**: Consistently described as challenging but transformative
+- **Rapid development**: Moving through a comprehensive 60+ week program
 
-### Curriculum Context
+The full curriculum spans from basic computer literacy through advanced web development, algorithms, and capstone projects.
 
-Students reach these CSS labs having completed:
-- 1 week: General computer skills
-- 2 weeks: HTML fundamentals
-- 2 weeks: CSS basics (weeks 3-4)
-- **Now in weeks 6-7**: More advanced CSS concepts
+## Foundational Lab Design Inquiry
 
-The full curriculum spans topics from basic web development through React, React Native, algorithms, and capstone projects.
+**Core Philosophy**: Every lab emerges from understanding the specific moment in the learning journey, not from predetermined templates. Each lab's objectives flow naturally from the context rather than being imposed externally.
+
+### Essential Discovery Questions
+
+Before designing any lab, explore these foundational questions with beginner's mind:
+
+#### **Context Assessment**
+- Where are students in their mental model development right now?
+- What systems are they currently juggling that might feel ritualistic or mysterious?
+- Which recent concepts are they likely holding loosely vs. confidently?
+- What assumptions are they probably making about how things work?
+- How has their relationship with complexity evolved recently?
+
+#### **Integration Opportunity Discovery**
+- **Seed Harvesting**: What frameworks or concepts have we been gradually exposing them to that might now be ready for deeper exploration?
+- **Seed Planting**: What future concepts could we begin scaffolding without explicit teaching?
+- **Connection Bridging**: Which existing experiences (physical, emotional, narrative, technical) can illuminate new concepts?
+- **Mental Model Expansion**: How might this topic help reorganize or deepen their understanding of the broader system?
+
+#### **Engagement Design**
+- Where might genuine curiosity naturally emerge from their current experience?
+- What personal investment opportunities exist within this topic area?
+- How can completion *require* authentic exploration rather than compliance?
+- What creative agency can students exercise while still achieving learning objectives?
+- Which multiple frameworks (mechanical, narrative, systems, aesthetic, conceptual) could illuminate this concept?
+
+#### **Contextual Scope**
+- Is this a moment for new concept introduction, integration work, or consolidation?
+- What ratio of skill-building vs. connection-making serves this learning moment?
+- How does this lab fit into the larger arc of their development?
+- What constraints (time, prior knowledge, emotional capacity) shape the design space?
+
+### Emerging Objectives Principle
+
+**Learning objectives emerge from context inquiry rather than predetermined curriculum requirements.** The deepest learning happens when objectives arise naturally from students' current needs, curiosities, and developmental readiness rather than being imposed externally.
 
 ## Core Teaching Principles
 
-### 1. Ecosystem Context Over Syntax
+### 1. Connection-Based Learning
+
+**Key Insight**: Engagement emerges from *connection*, not accumulation. Students learn most effectively when new concepts illuminate or reorganize their existing understanding, rather than adding isolated factoids to disconnected boxes.
+
+**Multiple Connection Frameworks**: Rather than single-perspective explanations, design activities that offer multiple valid ways to understand the same concept:
+- **Mechanical**: How systems work (properties as adjustable dials)
+- **Narrative**: Stories of change and interaction (elements with histories)  
+- **Systems**: Relationships between components (browser as active interpreter)
+- **Aesthetic**: Intentional craft and user experience (smooth motion feels professional)
+- **Conceptual**: Abstract patterns (state, time, interpolation)
+
+Different students connect through different frameworks - the same activity can reinforce different aspects for different learners.
+
+**Forward and Backward Compatibility**: Design labs to:
+- **Harvest planted seeds**: Build on frameworks we've been gradually exposing them to
+- **Plant future seeds**: Scaffold concepts that will become relevant later
+- **Bridge existing experience**: Connect to physical, emotional, and narrative understanding they already possess
+
+### 2. Personal Investment & Creative Agency
+
+**Transform Compliance into Ownership**: The difference between "complete these exercises" and "bring your dreams to life" is transformative. When students have genuine investment in the content, engagement follows naturally.
+
+**Creative Agency Within Structure**: Provide scaffolding and clear objectives while offering meaningful choices:
+- Customize content with personal examples and preferences
+- Choose between multiple valid approaches to problems
+- Express individual aesthetic and narrative preferences
+- Make decisions that affect the final outcome
+
+**Why This Works**: Personal investment creates intrinsic motivation, while creative choices help students understand that development involves constant decision-making, not just rule-following.
+
+### 3. Ecosystem Context Over Syntax
 - Explain **what things are**, not just how to use them
 - More importantly: **why this matters** and **how it fits their growing mental model**
-- Remember: their framework for understanding web development is nascent and evolving
-- Week 6 context needs differ vastly from week 52 context needs
+- Remember: their framework for understanding development is actively evolving
+- Context needs change dramatically as understanding deepens
 
-### 2. Paradigm-Aware Instruction
-- Students are actively building their mental model of how web development works
+### 4. Paradigm-Aware Instruction
+- Students are actively building their mental model of how development works
 - Connect new concepts to what they already understand
-- Explain how this fits into the broader evolution of web development
+- Explain how this fits into the broader evolution of technology
 - Help them see the "why" behind technical decisions
 
-### 3. Structure with Flexibility
-- Provide clear guidance and scaffolding at this early stage
-- Different lab types need different approaches:
+### 5. Structure with Flexibility
+- Provide clear guidance and scaffolding while remaining responsive to context
+- Different lab types serve different developmental moments:
   - **Skill practice labs**: More structured, focused on specific concepts
-  - **Mini-capstone projects**: More freedom and creative expression
-  - **Debugging challenges**: Guided problem-solving
-- Unit tests provide valuable feedback loops (though time-intensive to build well)
+  - **Integration labs**: Connection-heavy, using one concept to reinforce many
+  - **Mini-capstone projects**: Creative freedom within defined constraints
+  - **Debugging challenges**: Guided problem-solving and system understanding
+- Testing serves learning, not evaluation
 
-### 4. Confidence Building
-- Early wins are crucial for maintaining motivation
-- Clear progress indicators and celebration of achievements
-- Patient, encouraging tone throughout
-- Multiple entry points for different skill levels
+### 6. Confidence Building
+- Early wins and clear progress indicators maintain motivation
+- Patient, encouraging tone that respects the learning journey
+- Multiple entry points accommodate different learning styles and paces
+- Celebration of genuine understanding over performance
 
-### 5. Problem-First Learning Design
+### 7. Problem-First Learning Design
 **Key Discovery**: Passive exercises (like "uncomment this code") are disengaging and don't build genuine understanding. Active problem-solving creates meaningful learning.
 
 **The Problem-Solution Pattern:**
@@ -134,38 +195,69 @@ We work together as mentor and implementer:
 - Understanding how systems work through fixing them
 - Progressive complexity
 
-### Vehicle Labs (Advanced Design Pattern)
-**Key Insight**: Sometimes the specific technical content matters less than serving overarching learning goals. Advanced tools can become vehicles for reinforcing fundamental concepts.
+### Integration-Heavy Lab Design
 
-**When to Use This Approach:**
+**Core Insight**: Some learning moments call for connection and consolidation rather than new concept introduction. When students have covered multiple related topics, integration work often serves better than adding more advanced techniques.
+
+**When Integration Serves Better Than Introduction:**
 - Students have covered multiple similar technical topics (risk of repetitive content)
-- Core concepts need reinforcement more than new advanced techniques
-- Technology skills are developing faster than conceptual understanding
-- Curriculum has natural "consolidation moments" where integration serves better than introduction
+- Core concepts need reinforcement more than new advanced techniques  
+- Technical skills are developing faster than conceptual understanding
+- Natural "consolidation moments" emerge in the curriculum flow
 
-**Example: "SCSS as Vehicle for CSS Fundamentals"**
-Instead of focusing on advanced SCSS features, use SCSS organization to reinforce:
-- **Component-based thinking** (BEM + SCSS structure)
-- **Responsive design patterns** (organized breakpoint systems)
-- **Modern CSS features** (clamp, custom properties, aspect-ratio)
-- **Accessibility best practices** (focus states, semantic structure)
-- **Form styling** (practical skills with SCSS organization)
-- **CSS Grid/Flexbox** (layout fundamentals with better organization)
-- **Performance considerations** (CSS output quality, organization impact)
+**Integration Lab Ratios:**
+- **70% integration work**: Using one concept as a vehicle to explore fundamental relationships and mental models
+- **30% focused skill-building**: Essential technique development specific to the topic
 
-**Vehicle Lab Characteristics:**
-- **Fundamental skill practice** disguised as advanced tool usage
-- **Integration over introduction** - connecting concepts rather than adding new ones  
+**Vehicle Labs (Advanced Pattern)**: Sometimes the specific technical content matters less than serving overarching learning goals. New tools become vehicles for reinforcing fundamental concepts.
+
+**Example Applications:**
+- **SCSS as vehicle for CSS fundamentals**: Use organization features to reinforce layout, typography, and responsive design
+- **Transitions as vehicle for CSS systems**: Use smooth animations to explore Grid, Flexbox, Box Model, and Cascade
+- **React components as vehicle for HTML semantics**: Use component structure to reinforce accessibility and semantic markup
+- **Git workflows as vehicle for collaboration patterns**: Use version control to reinforce project organization and communication
+
+**Integration Lab Characteristics:**
+- **Fundamental skill practice** within engaging new contexts
+- **Connection over accumulation** - linking concepts rather than adding isolated techniques
 - **Professional workflow exposure** without overwhelming complexity
-- **Paradigm reinforcement** - "why we organize code this way" becomes clearer through practice
+- **Paradigm reinforcement** - deeper "why" understanding emerges through integrated practice
 
-**Design Questions for Vehicle Labs:**
-- What fundamental concepts do students need more practice with?
-- How can this technology make practicing those fundamentals more engaging?
-- What professional context makes the fundamentals feel essential?
-- How do we avoid the technology becoming a distraction from the real learning goals?
+**Design Questions for Integration Labs:**
+- What fundamental concepts need deeper practice vs. initial introduction?
+- How can this new concept make practicing fundamentals more engaging?
+- What connections between concepts are students ready to explore?
+- How do we ensure the new tool serves learning rather than distracting from it?
 
-This approach particularly valuable in weeks 6-10 when students have enough technical knowledge to benefit from integration work, but still need paradigm reinforcement more than advanced techniques.
+## Creating the Atmosphere of Inquiry
+
+### The Ritual vs. Engagement Challenge
+
+Students often encounter new systems (command line, frameworks, development workflows) that feel ritualistic - "type these commands, magic happens." The ongoing challenge is transforming compliance-based learning ("complete exercises to check off the box") into genuine curiosity and exploration.
+
+### Fostering Genuine Exploration
+
+Transform the learning environment from evaluation-focused to exploration-focused:
+
+**From**: "Here are the correct answers, demonstrate absorption"  
+**To**: "Look what I discovered when experimenting - what do you notice?"
+
+**Characteristics of Authentic Learning Environments:**
+- Teacher as fellow explorer rather than authority figure
+- Permission to linger with interesting details and unexpected discoveries
+- Conversational, wondering language ("I wonder what happens if...")
+- Examples chosen for intrigue and connection, not just instructional correctness
+- Multiple entry points that accommodate different learning styles
+- Natural surprise emerging from genuine experimentation
+
+### Scaffolding Within Constraints
+
+Working within institutional structures (discrete labs, time requirements, completion criteria) while creating pockets of authentic engagement:
+
+- Structure activities so completion *requires* genuine exploration rather than compliance
+- Use constraints to create focus and creative challenge rather than pressure
+- Design "required" work that naturally leads to moments of authentic curiosity
+- Present material through multiple lenses to maximize connection opportunities
 
 ## Testing in Educational Labs
 
